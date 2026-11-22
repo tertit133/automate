@@ -1,0 +1,16 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMate", "AutoMate.csproj", "{2B3C4A8E-E5D4-4E65-9F8E-1A2B3C4D5E6F}"
+EndProject
+Global
+    GlobalSection(SolutionConfigurationPlatforms) = preSolution
+        Debug|Any CPU = Debug|Any CPU
+        Release|Any CPU = Release|Any CPU
+    EndGlobalSection
+    GlobalSection(ProjectConfigurationPlatforms) = postSolution
+        {2B3C4A8E-E5D4-4E65-9F8E-1A2B3C4D5E6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {2B3C4A8E-E5D4-4E65-9F8E-1A2B3C4D5E6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {2B3C4A8E-E5D4-4E65-9F8E-1A2B3C4D5E6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {2B3C4A8E-E5D4-4E65-9F8E-1A2B3C4D5E6F}.Release|Any CPU.Build.0 = Release|Any CPU
+    EndGlobalSection
+EndGlobal

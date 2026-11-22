@@ -1,0 +1,15 @@
+bin/
+obj/
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.ilk
+*.pdb
+
+# macOS
+.DS_Store
+
+# Runtime
+publish/

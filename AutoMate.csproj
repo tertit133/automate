@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RuntimeIdentifiers>win-x64</RuntimeIdentifiers>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>AutoMate</RootNamespace>
+    <AssemblyName>AutoMate</AssemblyName>
+    <ApplicationIcon></ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm"                        Version="8.3.2" />
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Scripting"      Version="4.11.0" />
+    <PackageReference Include="System.Text.Json"                             Version="8.0.5" />
+  </ItemGroup>
+
+</Project>

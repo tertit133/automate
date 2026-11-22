@@ -66,10 +66,10 @@
                     Command="{Binding Recorder.StopAndSaveCommand}" />
             <TextBlock Margin="12,0,0,0" VerticalAlignment="Center"
                        Foreground="{StaticResource Dim}"
-                       Text="{Binding Recorder.IsRecording, StringFormat={}recording={0}}" />
+                       Text="{Binding Recorder.IsRecording, StringFormat='recording=\{0\}'}" />
             <TextBlock Margin="12,0,0,0" VerticalAlignment="Center"
                        Foreground="{StaticResource Dim}"
-                       Text="{Binding Recorder.StepCount, StringFormat={}last saved: {0} steps}" />
+                       Text="{Binding Recorder.StepCount, StringFormat='last saved: \{0\} steps'}" />
           </StackPanel>
 
           <!-- right: library -->
